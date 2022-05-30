@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Familia</title>
+</head>
+<body>
+    {% include "Barra.html" %}
+    <p><strong><h1  style="color:red">Hola Coders!!! Les presento a mi familia</h1></strong></p>
+    <h2>El nombre de mi mamá es {{f_1.nombre.upper}}</h2>
+    <ul>
+        <li><p><h3>Tiene {{f_1.edad}} años</h3></p></li>
+        <li><p><h3>Su e-mail es: {{f_1.email}}</h3></p></li>
+        <li><p><h3>Teléfono de contacto: {{f_1.telefono}}</h3></p></li>
+        <li><p><h3>Naci&oacute; el {{f_1.f_nacimiento}}</h3></p></li>
+    </ul>
+    <p>
+        <strong><h2  style="color:red"> Tengo muchos hermanos. cinco en total. Si! Leyeron bien! Somos 5. 
+    </p>
+    <p>Se los presento:</strong></h2></p>
+
+
+<p><h2>La mayor de mis hermanas es {{f_2.nombre.upper}}</h2></p>
+<ul>
+    <li><p><h3>Tiene {{f_2.edad}} años</h3></p></li>
+    <li><p><h3>Su e-mail es: {{f_2.email}}</h3></p></li>
+    <li><p><h3>Teléfono de contacto: {{f_2.telefono}}</h3></p></li>
+    <li><p><h3>Naci&oacute; el {{f_2.f_nacimiento}}</h3></p></li>
+</ul>
+</br>
+<p><h2>Le sigue mi segunda hermana. Le decimos "Maru", pero en realidad se llama {{f_3.nombre.upper}}</h2></p>
+<ul>
+    <li><p><h3>Maru tiene {{f_3.edad}} años</h3></p></li>
+    <li><p><h3>Su e-mail es: {{f_3.email}}</h3></p></li>
+    <li><p><h3>Teléfono de contacto: {{f_3.telefono}}</h3></p></li>
+    <li><p><h3>Naci&oacute; el {{f_3.f_nacimiento}}</h3></p></li>
+</ul>
+</br>
+<p><h2>Por finnn vino el varón!: {{f_4.nombre.upper}}</h2></p>
+<ul>
+    <li><p><h3>La edad de {{f_4.nombre}} es: {{f_4.edad}} años</h3></p></li>
+    <li><p><h3>Su e-mail es: {{f_4.email}}</h3></p></li>
+    <li><p><h3>Teléfono de contacto: {{f_4.telefono}}</h3></p></li>
+    <li><p><h3>Naci&oacute; el {{f_4.f_nacimiento}}</h3></p></li>
+</ul>
+</br>
+<p><h2>El "Benjamín" de la casa es {{f_5.nombre.upper}}</h2></p>
+<ul>
+    <li><p><h3>Es menor que yo y tiene {{f_5.edad}} años</h3></p></li>
+    <li><p><h3>Su e-mail es: {{f_5.email}}</h3></p></li>
+    <li><p><h3>Teléfono de contacto: {{f_5.telefono}}</h3></p></li>
+    <li><p><h3>Naci&oacute; el {{f_5.f_nacimiento}}</h3></p></li>
+</ul>
+</body>
+</html>
